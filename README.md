@@ -11,3 +11,5 @@ written by Ruby
 - [ ] private amount
 - [x] `Dollar` side effect?
 - [ ] `Money` rounding?
+- [ ] equals()
+- [ ] hashCode()

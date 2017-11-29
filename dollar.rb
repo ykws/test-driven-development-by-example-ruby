@@ -9,4 +9,12 @@ class Dollar
     Dollar.new(@amount * multiplier)
   end
 
+  def eql?(other)
+    true
+  end
+
+  def hash
+    @amount.hash
+  end
+
 end
