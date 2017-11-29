@@ -13,3 +13,5 @@ written by Ruby
 - [ ] `Money` rounding?
 - [x] eql?
 - [x] hash
+- [ ] Compare nil
+- [ ] Compare other object
