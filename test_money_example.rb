@@ -11,4 +11,9 @@ class TestMoneyExample < Test::Unit::TestCase
     assert_equal(15, product.amount)
   end
 
+  def test_equality
+    assert_true(Dollar.new(5).eql?(Dollar.new(5)))
+    assert_false(Dollar.new(5).eql?(Dollar.new(6)))
+  end
+
 end

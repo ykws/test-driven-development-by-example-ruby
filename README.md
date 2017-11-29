@@ -11,3 +11,7 @@ written by Ruby
 - [ ] private amount
 - [x] `Dollar` side effect?
 - [ ] `Money` rounding?
+- [x] eql?
+- [x] hash
+- [ ] Compare nil
+- [ ] Compare other object
