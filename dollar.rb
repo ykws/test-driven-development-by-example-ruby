@@ -10,7 +10,7 @@ class Dollar
   end
 
   def eql?(other)
-    true
+    @amount == other.amount
   end
 
   def hash
